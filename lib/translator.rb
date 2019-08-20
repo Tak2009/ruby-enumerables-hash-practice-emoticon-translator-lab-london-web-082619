@@ -1,10 +1,10 @@
 # require modules here
-#require 'pry'
+require 'pry'
 require "yaml"
 
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
-#binding.pry
+binding.pry
   new_hash = {
     'get_meaning' => {},
     'get_emoticon' => {}
