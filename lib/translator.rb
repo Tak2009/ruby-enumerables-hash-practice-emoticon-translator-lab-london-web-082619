@@ -2,7 +2,7 @@
 
 def load_library(file_path)
   new_hash = {
-    'get_meaning' => {},
+    'get_meaning' => {"☜(⌒▽⌒)☞" => 1},
     'get_emoticon' => {}
   }
 
