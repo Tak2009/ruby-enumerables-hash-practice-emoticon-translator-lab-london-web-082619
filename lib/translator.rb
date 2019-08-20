@@ -1,7 +1,7 @@
 # require modules here
 
 def load_library(file_path)
-  hash = {:get_emotion => 1, "get_meaning" => 2}
+  hash = {"get_emotion" => 1, "get_meaning" => 2}
 
 end
 
